@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<data>
+    <Major dept='Computer Science'>
+        <name>Computer Science</name>
+        <lowerdiv>
+            <option id='python'>
+                <course dept="ICS">31</course>
+                <course dept="ICS">32</course>
+                <course dept="ICS">33</course>
+            </option>
+            <option id='python'>
+                <course dept="ICS">32A</course>
+                <course dept="ICS">33</course>
+            </option>
+            <course dept="ICS">45C</course>
+            <course dept="ICS">46</course>
+            <course dept="ICS">51</course>
+            <course dept="ICS">53</course>
+            <course dept="ICS">53L</course>
+            <course dept="ICS">90</course>
+            <course dept="IN4MATX">43</course>
+            <course dept="MATH">2A</course>
+            <course dept="MATH">2B</course>
+            <course dept="ICS">6B</course>
+            <course dept="ICS">6D</course>
+            <option id='linalg'>
+                <course dept="ICS">6N</course>
+            </option>
+            <option id='linalg'>
+                <course dept="MATH">3A</course>
+            </option>
+            <course dept="STATS">67</course>
+        </lowerdiv>
+        <upperdiv>
+            <course dept="CS">161</course>
+            <course dept="ICS">139W</course>
+        </upperdiv>
+    </Major>
+</data>
