@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<courses>
+    </course dept="ICS" num="31">
+    <course dept="ICS" num="32">
+        <prereq>
+            </course dept="ICS" num="31">
+            </course dept="CSE" num="41">
+        </prereq>
+    </course>
+    <course dept="ICS" num="32A">
+        <prereq>
+            </course dept="AP" num="CS">
+        </prereq>
+    </course>
+    <course dept="ICS" num="33">
+        <prereq>
+            </course dept="ICS" num="32">
+            </course dept="ICS" num="32A">
+            </course dept="CSE" num="42">
+        </prereq>
+    </course>
+</courses>

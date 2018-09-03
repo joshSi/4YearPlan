@@ -3,7 +3,7 @@
 class Course:
     '''Course superclass for any course'''
     def __init__(self, dept, num, name='',
-        units=4, prereq=set(), restr=set(), coclass=None,):
+        units=4, prereq=set(), restr=set(), coclass=None):
         self.dept, self.num, self.name = dept, num, name
         self.units = units
         self.prereq, self.restr = prereq, restr
@@ -23,7 +23,7 @@ class Course:
 
 class GE(Course):
     '''GE class'''
-    def __init__(self, section=set(), dept, num, name='',
-        units=4, prereq=set(), restr=set()):
+    def __init__(self, dept, num, name='',
+        units=4, prereq=set(), restr=set(), coclass=None, section=set()):
         self.section = section
-        super.__init__(dept, num, name, units, prereq, restr)
+        super.__init__(dept, num, name, units, prereq, restr, coclass)
