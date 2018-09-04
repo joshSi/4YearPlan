@@ -4,54 +4,54 @@
         <name>Computer Science</name>
         <lowerdiv>
             <option id='python'>
-                </course dept="ICS" num="31">
-                </course dept="ICS" num="32">
-                </course dept="ICS" num="33">
+                <course dept="ICS" num="31"/>
+                <course dept="ICS" num="32"/>
+                <course dept="ICS" num="33"/>
             </option>
             <option id='python'>
-                </course dept="ICS" num="32A">
-                </course dept="ICS" num="33">
+                <course dept="ICS" num="32A"/>
+                <course dept="ICS" num="33"/>
             </option>
-            </course dept="ICS" num="45C">
-            </course dept="ICS" num="46">
-            </course dept="ICS" num="51">
-            </course dept="ICS" num="53">
-            </course dept="ICS" num="53L">
-            </course dept="ICS" num="90">
-            </course dept="IN4MATX" num="43">
-            </course dept="MATH" num="2A">
-            </course dept="MATH" num="2B">
-            </course dept="ICS" num="6B">
-            </course dept="ICS" num="6D">
+            <course dept="ICS" num="45C"/>
+            <course dept="ICS" num="46"/>
+            <course dept="ICS" num="51"/>
+            <course dept="ICS" num="53"/>
+            <course dept="ICS" num="53L"/>
+            <course dept="ICS" num="90"/>
+            <course dept="IN4MATX" num="43"/>
+            <course dept="MATH" num="2A"/>
+            <course dept="MATH" num="2B"/>
+            <course dept="ICS" num="6B"/>
+            <course dept="ICS" num="6D"/>
             <option id='linalg'>
-                </course dept="ICS" num="6N">
+                <course dept="ICS" num="6N"/>
             </option>
             <option id='linalg'>
-                </course dept="MATH" num="3A">
+                <course dept="MATH" num="3A"/>
             </option>
-            </course dept="STATS" num="67">
+            <course dept="STATS" num="67"/>
         </lowerdiv>
         <upperdiv>
-            </course dept="CS" num="161">
-            </course dept="ICS" num="139W">
+            <course dept="CS" num="161"/>
+            <course dept="ICS" num="139W"/>
             <choose amt="2">
-                </course dept="CS" num="113">
-                </course dept="CS" num="114">
-                </course dept="CS" num="122B">
-                </course dept="CS" num="122C">
-                </course dept="CS" num="125">
-                </course dept="CS" num="133">
-                </course dept="CS" num="142B">
-                </course dept="CS" num="143B">
-                </course dept="CS" num="145">
-                </course dept="CS" num="145L">
-                </course dept="CS" num="153">
-                </course dept="CS" num="154">
-                </course dept="CS" num="165">
-                </course dept="CS" num="175">
-                </course dept="CS" num="189">
-                </course dept="INT4MATX" num="117">
-                </course dept="INT4MATX" num="134">
+                <course dept="CS" num="113"/>
+                <course dept="CS" num="114"/>
+                <course dept="CS" num="122B"/>
+                <course dept="CS" num="122C"/>
+                <course dept="CS" num="125"/>
+                <course dept="CS" num="133"/>
+                <course dept="CS" num="142B"/>
+                <course dept="CS" num="143B"/>
+                <course dept="CS" num="145"/>
+                <course dept="CS" num="145L"/>
+                <course dept="CS" num="153"/>
+                <course dept="CS" num="154"/>
+                <course dept="CS" num="165"/>
+                <course dept="CS" num="175"/>
+                <course dept="CS" num="189"/>
+                <course dept="INT4MATX" num="117"/>
+                <course dept="INT4MATX" num="134"/>
             </choose>
         </upperdiv>
     </Major>

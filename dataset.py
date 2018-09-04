@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import degree
+import course, degree
 import xml.etree.ElementTree as ET
 
 class Dataset:
@@ -18,5 +18,6 @@ class Dataset:
             
 if __name__=='__main__':
     ds = Dataset()
-    print(ds.get_dept_majors('Computer Science')[0].find('name').text)
-    print(ds.get_major('Computer Science').find('name').text)
+    cs = ds.get_major('Computer Science')
+    for c in cs.findall('.//course'):
+        print(c.attrib['dept']+' '+c.attrib['num'])
