@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <data>
-    <Major dept='Computer Science'>
+    <Major school='Donald Bren School of Information and Computer Sciences'>
         <name>Computer Science</name>
         <lowerdiv>
             <option id='python'>
