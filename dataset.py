@@ -20,6 +20,7 @@ if __name__=='__main__':
     ds = Dataset()
     cs = ds.get_major('Computer Science')
     degcs = degree.MajorElement(cs)
+    print(degcs.list_required_lowerdiv())
     print(degcs)
     for c in cs.findall('.//course'):
         print(c.attrib['dept']+' '+c.attrib['num'])
